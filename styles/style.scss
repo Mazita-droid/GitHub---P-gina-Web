@@ -58,6 +58,7 @@ h1 {
         flex-direction: column; 
         align-items: center; 
         text-align: center; 
+        overflow-x: hidden;
     }
 }
 
@@ -257,6 +258,7 @@ button {
     }
     @media (max-width: 768px) { 
         padding-left: 0%; 
+        overflow-x: hidden;
     }
 }
 
@@ -282,6 +284,7 @@ button {
 #no-subtext{
     @media (max-width: 768px) {
         padding-top: 50%;
+        overflow-x: hidden;
     }
     text-shadow: -0.063rem -0.063rem 0 #00000048, 0.063rem -0.063rem 0 #00000048, -0.063rem 0.063rem 0 #00000048, 0.063rem 0.063rem 0 #000;
 
@@ -299,6 +302,7 @@ button {
 #About-Cont{
     @media (max-width: 768px) {
         padding-top: 60%;
+        overflow-x: hidden;
     }
 }
 
@@ -681,16 +685,19 @@ nav {
   @media (max-width: 768px) {
       flex-direction: column; 
       align-items: center; 
+      overflow-x: hidden;
 
       .nav-links-top {
           flex-direction: column; 
           align-items: center; 
           padding: 0; 
+          overflow-x: hidden;
           
           li {
               margin-right: 0; 
               margin-bottom: 50px;
               margin-top: 20px; 
+              overflow-x: hidden;
           }
       }
   }
@@ -708,13 +715,18 @@ nav {
         font-size: 14px; 
         justify-content: center;
         align-items: center;
+        overflow-x: hidden;
+        width: 100%;
+        max-width: 100%;
     }
 
     header {
         height: 40vh;
+        overflow-x: hidden;
         img {
             width: 80%;
             height: 60%;
+            overflow-x: hidden;
         }
     }
 
@@ -722,16 +734,22 @@ nav {
       flex-direction: column;
       align-items: center;
       gap: 2em; 
+      max-width: 100%;
+      overflow-x: hidden;
     }
 
     #Social-Links{
       gap: 130em;
+      max-width: 100%;
+      overflow-x: hidden;
     }
 
     #Text-3{
         font-size: 1.2em;
         text-align: center;
         margin: 20px 0;
+        max-width: 100%;
+        overflow-x: hidden;
     }
 
     #criper {
@@ -741,11 +759,15 @@ nav {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        max-width: 100%;
+        overflow-x: hidden;
     }
     
     h1 {
         font-size: 50px;
         padding-bottom: 40px;
+        max-width: 100%;
+        overflow-x: hidden;
     }
     
     .content-wrapper {
@@ -754,6 +776,7 @@ nav {
         align-items: center;
         padding-top: 40px;
         font-family: 'Ubuntu';
+        overflow-x: hidden;
     }
     
     #criper {
@@ -763,11 +786,13 @@ nav {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        overflow-x: hidden;
     }
     
     h1 {
         font-size: 50px;
         padding-bottom: 40px;
+        overflow-x: hidden;
     }
     
     .content-wrapper {
@@ -776,6 +801,7 @@ nav {
         align-items: center;
         padding-top: 40px;
         font-family: 'Ubuntu';
+        overflow-x: hidden;
     }
     
     #Creepers {
@@ -783,6 +809,7 @@ nav {
         height: 100px;
         margin-bottom: 20px;
         align-self: center; 
+        overflow-x: hidden;
     }
     
     .right-content {
@@ -790,25 +817,30 @@ nav {
         flex-direction: column;
         align-items: center;
         margin-top: 20px;
+        overflow-x: hidden;
         img{
             margin-left: -500px;
+            overflow-x: hidden;
         }
     }
     
     h2, h3, p {
         margin: 10px 0;
+        overflow-x: hidden;
     }
     
     #mojanglogo {
         width: 200px;
         margin-top: 20px;
         align-self: center; 
+        overflow-x: hidden;
     }
     
     .Galería{
         display: flex;
         flex-direction: column;
         align-items: center;
+        overflow-x: hidden;
     }
 }
 

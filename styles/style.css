@@ -51,6 +51,7 @@ h1:hover::after {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    overflow-x: hidden;
   }
 }
 
@@ -233,6 +234,7 @@ button:hover {
 @media (max-width: 768px) {
   #elitra {
     padding-left: 0%;
+    overflow-x: hidden;
   }
 }
 
@@ -259,6 +261,7 @@ button:hover {
 @media (max-width: 768px) {
   #no-subtext {
     padding-top: 50%;
+    overflow-x: hidden;
   }
 }
 #no-subtext:hover::after {
@@ -274,6 +277,7 @@ button:hover {
 @media (max-width: 768px) {
   #About-Cont {
     padding-top: 60%;
+    overflow-x: hidden;
   }
 }
 
@@ -609,16 +613,19 @@ nav .Night-Button {
   nav {
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
   }
   nav .nav-links-top {
     flex-direction: column;
     align-items: center;
     padding: 0;
+    overflow-x: hidden;
   }
   nav .nav-links-top li {
     margin-right: 0;
     margin-bottom: 50px;
     margin-top: 20px;
+    overflow-x: hidden;
   }
 }
 
@@ -632,26 +639,37 @@ nav .Night-Button {
     font-size: 14px;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
   }
   header {
     height: 40vh;
+    overflow-x: hidden;
   }
   header img {
     width: 80%;
     height: 60%;
+    overflow-x: hidden;
   }
   #cont-img {
     flex-direction: column;
     align-items: center;
     gap: 2em;
+    max-width: 100%;
+    overflow-x: hidden;
   }
   #Social-Links {
     gap: 130em;
+    max-width: 100%;
+    overflow-x: hidden;
   }
   #Text-3 {
     font-size: 1.2em;
     text-align: center;
     margin: 20px 0;
+    max-width: 100%;
+    overflow-x: hidden;
   }
   #criper {
     background-color: rgb(199, 199, 199);
@@ -660,10 +678,14 @@ nav .Night-Button {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    max-width: 100%;
+    overflow-x: hidden;
   }
   h1 {
     font-size: 50px;
     padding-bottom: 40px;
+    max-width: 100%;
+    overflow-x: hidden;
   }
   .content-wrapper {
     display: flex;
@@ -671,6 +693,7 @@ nav .Night-Button {
     align-items: center;
     padding-top: 40px;
     font-family: "Ubuntu";
+    overflow-x: hidden;
   }
   #criper {
     background-color: rgb(199, 199, 199);
@@ -679,10 +702,12 @@ nav .Night-Button {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    overflow-x: hidden;
   }
   h1 {
     font-size: 50px;
     padding-bottom: 40px;
+    overflow-x: hidden;
   }
   .content-wrapper {
     display: flex;
@@ -690,34 +715,41 @@ nav .Night-Button {
     align-items: center;
     padding-top: 40px;
     font-family: "Ubuntu";
+    overflow-x: hidden;
   }
   #Creepers {
     width: 100px;
     height: 100px;
     margin-bottom: 20px;
     align-self: center;
+    overflow-x: hidden;
   }
   .right-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+    overflow-x: hidden;
   }
   .right-content img {
     margin-left: -500px;
+    overflow-x: hidden;
   }
   h2, h3, p {
     margin: 10px 0;
+    overflow-x: hidden;
   }
   #mojanglogo {
     width: 200px;
     margin-top: 20px;
     align-self: center;
+    overflow-x: hidden;
   }
   .Galería {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
   }
 }
 .light-theme {
