@@ -46,6 +46,13 @@ h1:hover::after {
 .feature-box ul li {
   margin-bottom: 5px;
 }
+@media (max-width: 768px) {
+  .feature-box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
 
 button {
   outline: none;
@@ -223,6 +230,11 @@ button:hover {
   padding-left: 22%;
   transition: 0.2s;
 }
+@media (max-width: 768px) {
+  #elitra {
+    padding-left: 0%;
+  }
+}
 
 .buy-button {
   background-color: #22ca68;
@@ -244,6 +256,11 @@ button:hover {
 #no-subtext {
   text-shadow: -0.063rem -0.063rem 0 rgba(0, 0, 0, 0.2823529412), 0.063rem -0.063rem 0 rgba(0, 0, 0, 0.2823529412), -0.063rem 0.063rem 0 rgba(0, 0, 0, 0.2823529412), 0.063rem 0.063rem 0 #000;
 }
+@media (max-width: 768px) {
+  #no-subtext {
+    padding-top: 50%;
+  }
+}
 #no-subtext:hover::after {
   content: "";
   position: absolute;
@@ -252,6 +269,12 @@ button:hover {
   background-color: transparent;
   bottom: -5px;
   left: 0;
+}
+
+@media (max-width: 768px) {
+  #About-Cont {
+    padding-top: 60%;
+  }
 }
 
 #Pegi10 {
