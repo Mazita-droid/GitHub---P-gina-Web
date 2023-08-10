@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conoce más sobre Mojang, la compañía detrás del icónico juego Minecraft. Descubre su historia, fundación y contribuciones al mundo de los videojuegos." /> 
+    <meta name="keywords" content="HTML, META, MINECRAFT, JAVA, MOJANG, BEDROCK, MICROSOFT, SITIO OFICIAL">   
+    <title>Minecraft - Mojang</title>
+    <link rel="stylesheet" href="../styles/style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="nav-top" id="Top"> 
+        <button onclick="iExtern('https://www.minecraft.net/es-es')" class="logo-button" title="Haz click acá para ir a la página oficial de Minecraft">
+            <img src="../img/cubo.png" alt="Logo Minecraft">
+        </button>
+        <ul class="nav-links-top">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="comprar.html">Comprar</a></li>
+            <li><a href="mojang.html">Mojang</a></li>
+            <li><a href="about.html">Acerca de</a></li>
+            <li><a href="isesion.html">Iniciar sesión</a></li>
+        </ul>
+        <button id="toggle-theme" onclick="toggleNightMode()" class="Night-Button">
+            <i id="theme-icon" class="fas fa-moon"></i> <span id="theme-text">Noche</span>
+        </button>  
+    </nav> 
+    <!-- Contenido de la página -->
+    <div clas="page-content" style="font-family: 'Ubuntu';">
+        <div id="criper" style="background-color: rgb(199, 199, 199); color: black;">
+            <h1 style="font-size: 50px; padding-bottom: 40px;">¿Qué es Mojang?</h1>
+            <div class="content-wrapper" style="padding-top: 40px;">
+                <img src="../img/creeper.png" alt="creeper" id="Creepers" title="Tss....">
+                <div class="right-content">
+                    <h2>Mojang, fundada en 2009</h2>
+                    <p>es una compañía sueca de videojuegos conocida por la creación del icónico juego "Minecraft".</p>
+                    <img src="../img/MCS.jpg" alt="logo mojang">
+                    <h3></h3>
+                    <p>Mojang ha mantenido su compromiso con la innovación y la comunidad, expandiendo constantemente el alcance de "Minecraft" y desarrollando nuevos proyectos emocionantes en el mundo de los videojuegos.</p>
+                    <img id="mojanglogo" src="../img/logomojang.png" alt="">
+                </div>
+            </div>
+        </div> 
+        <div class="Galería">
+            <div class="row">
+                <div class="image-container">
+                    <img src="../img/body.png" alt="Imagen 1">
+                </div>
+                <div class="image-container">
+                    <img src="../img/body2.png" alt="Imagen 2">
+                </div>
+                <div class="image-container">
+                    <img src="../img/body3.png" alt="Imagen 3">
+                </div>
+            </div>
+            <div class="row">
+                <div class="image-container">
+                    <img src="../img/body4.png" alt="Imagen 4">
+                </div>
+                <div class="image-container">
+                    <img src="../img/body5.png" alt="Imagen 5">
+                </div>
+            </div>
+        </div>        
+        <!-- Apartado de Skins y más -->
+        <p style="text-align: center;">¡Podrás personalizar tu apariencia!</p>     
+        <div style="background: #94949493;">
+            <p style="text-align: center;">También podes revisar los otros juegos de Mojang.</p>
+            <div style="text-align: center; align-items: center;">
+                <img src="../img/scrolls.png" alt=""> <br>
+                para jugar a más juegos entra a 
+                <a href="http://playcobalt.com/">este link</a>
+            </div>
+        </div> 
+    </div style="padding-bottom: 40px;">   
+    <!-- Footer -->
+    <footer>
+        <button id="btopb" style="font-family: 'Ubuntu'; justify-content: center;">
+            <a href="#Top">Volver arriba</a>
+        </button>
+        <div id="Social-Links">
+            <a href="https://www.youtube.com/minecraft" target="_blank">
+                <img src="../img/youtube.png" alt="Logo de YouTube">
+            </a>
+            <a href="https://www.twitter.com/Minecraft" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+        <p style="font-family: 'Ubuntu'; font-size: 0.8em;">Página sin fines de lucro. Copyright Maximo Gileno©</p>
+    </footer>
+    <script src="../java/script.js"></script>

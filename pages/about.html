@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubre información interesante sobre el videojuego Minecraft, clasificación PEGI y modificaciones.">
+    <meta name="keywords" content="HTML, META, MINECRAFT, JAVA, MOJANG, BEDROCK, MICROSOFT, SITIO OFICIAL">
+    <title>Minecraft - Acerca de</title>
+    <link rel="stylesheet" href="../styles/style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="nav-top" id="Top"> 
+        <button onclick="iExtern('https://www.minecraft.net/es-es')" class="logo-button" title="Haz click acá para ir a la página oficial de Minecraft">
+            <img src="../img/cubo.png" alt="Logo Minecraft">
+        </button>
+        <ul class="nav-links-top">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="comprar.html">Comprar</a></li>
+            <li><a href="mojang.html">Mojang</a></li>
+            <li><a href="about.html">Acerca de</a></li>
+            <li><a href="isesion.html">Iniciar sesión</a></li>
+        </ul>
+        <button id="toggle-theme" onclick="toggleNightMode()" class="Night-Button">
+            <i id="theme-icon" class="fas fa-moon"></i> <span id="theme-text">Noche</span>
+        </button>  
+    </nav>    
+    <!-- Header -->
+    <header style="background-image: url(../img/abejas.png);">
+        <h1 id="no-subtext">Acerca de Minecraft</h1>            
+        <h2 style="text-shadow: -0.063rem -0.063rem 0 #00000048, 0.063rem -0.063rem 0 #00000048, -0.063rem 0.063rem 0 #00000048, 0.063rem 0.063rem 0 #000;        ">Es importante tener en cuenta:</h2>
+        <div class="feature-box" style="background-color: rgba(0, 0, 0, 0.774);">
+            <div class="left-content">  
+                <ul>
+                    <h3>Niños</h3>
+                    <li>Acceso restringido</li>
+                    <li>Control parental</li>
+                    <li>y modo educación.</li>
+                </ul>
+            </div>
+            <div class="right-content">
+                <ul>
+                    <h4>Adultos</h4>
+                    <li>Acceso completo</li>
+                    <li>Sin restricciones</li>
+                    <li>con modificaciones habilitadas.</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- Contenido de la página -->
+    <div class="page-content" style="font-family: 'Ubuntu';">
+        <!-- PEGI -->
+        <div class="Pegi">
+            <h3>Minecraft es un videojuego catalogado como PEGI 10:</h3>
+            <p>Las clasificaciones PEGI (Pan European Game Information) son un sistema de calificación de contenido utilizado en Europa para los videojuegos y aplicaciones digitales. <br>Estas clasificaciones proporcionan información sobre el contenido y la adecuación de un juego en función de la edad del jugador y de posibles elementos que puedan ser inapropiados o impactantes.</p>
+            <img src="../img/10e.png" alt="El videojuego es apto para mayores de 10 años." id="Pegi10">
+            <p style="font-size: 10px;">El videojuego es apto para mayores de 10 años.</p>
+        </div>
+        <!-- DATOS -->
+        <div class="Datos" style="background-image: url(../img/wall-2.png); text-align: center;">
+            <h4 style=" font-size: 20px ; text-shadow: -0.063rem -0.063rem 0 #00000048, 0.063rem -0.063rem 0 #00000048, -0.063rem 0.063rem 0 #00000048, 0.063rem 0.063rem 0 #000;">¿Modificaciones?</h4>
+            <div class="feature-box" style="background-color: #000000d0;">
+                <p style="color: white;">Aunque no está programado en JavaScript en su totalidad, Minecraft ha sido objeto de numerosos mods y personalizaciones creados por la comunidad utilizando JavaScript y otros lenguajes a través de herramientas y APIs proporcionadas por Mojang Studios. Estos mods pueden agregar funcionalidades y características nuevas al juego.</p>
+            </div>
+            <img src="../img/forge.jpg" alt=""><br>
+            <a href="https://www.curseforge.com/minecraft" style="color: black;;">Podes encontrar mods en CurseForge.</a>
+        </div>
+        <!-- ARTÍCULOS -->
+        <div class="Artículos" style="background-color: white; color: black;">
+            <div class="row-2">
+                <div class="column">
+                    <p>Artículos Nuevos.</p>
+                    <a href="https://help.minecraft.net/hc/en-us/articles/4420326353933" style="background-color: #000000c2;">MacOS</a>
+                    <a href="https://help.minecraft.net/hc/en-us/articles/360042547152" style="background-color: #000000c2;">Lego</a>
+                </div>
+                <div class="column">
+                    <p>Artículos Obligatorios.</p>
+                    <a href="https://help.minecraft.net/hc/en-us/articles/4420326353933" style="background-color: #000000c2;">PreviewFAQ</a>
+                    <a href="https://help.minecraft.net/hc/en-us/articles/360042547152" style="background-color: #000000c2;">DeluxeFAQ</a>
+                </div>
+            </div>
+        </div>        
+    </div>
+    <!-- Footer de la página -->
+    <footer>
+        <button id="btopb" style="font-family: 'Ubuntu'; justify-content: center;">
+            <a href="#Top">Volver arriba</a>
+        </button>
+        <div id="Social-Links">
+            <a href="https://www.youtube.com/minecraft" target="_blank">
+                <img src="../img/youtube.png" alt="Logo de YouTube">
+            </a>
+            <a href="https://www.twitter.com/Minecraft" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+        <p style="font-family: 'Ubuntu'; font-size: 0.8em;">Página sin fines de lucro. Copyright Maximo Gileno©</p>
+    </footer>    
+    <script src="../java/script.js"></script>

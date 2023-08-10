@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="¡Compra Minecraft hoy y explora un emocionante mundo de creatividad y aventuras! Encuentra la edición que mejor se adapte a ti: Java Edition o Bedrock Edition. Descubre todo lo que necesitas para construir, explorar y sobrevivir en un universo de bloques." />
+    <meta name="keywords" content="HTML, META, MINECRAFT, JAVA, MOJANG, BEDROCK, MICROSOFT, SITIO OFICIAL">
+    <title>Minecraft - Comprar</title>
+    <link rel="stylesheet" href="../styles/style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="nav-top" id="Top"> 
+        <button onclick="iExtern('https://www.minecraft.net/es-es')" class="logo-button" title="Haz click acá para ir a la página oficial de Minecraft">
+            <img src="../img/cubo.png" alt="Logo Minecraft">
+        </button>
+        <ul class="nav-links-top">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="comprar.html">Comprar</a></li>
+            <li><a href="mojang.html">Mojang</a></li>
+            <li><a href="about.html">Acerca de</a></li>
+            <li><a href="isesion.html">Iniciar sesión</a></li>
+        </ul>
+        <button id="toggle-theme" onclick="toggleNightMode()" class="Night-Button">
+            <i id="theme-icon" class="fas fa-moon"></i> <span id="theme-text">Noche</span>
+        </button>  
+    </nav>   
+    <!-- Header -->
+    <header class="header-container">
+        <h1>COMPRA MINECRAFT Y DISFRUTA</h1>
+        <div class="header-bg"></div>
+        <div class="header-content">
+            <p id="Text-4" class="zoom-in-animation">Descubre un mundo infinito de creatividad y aventuras con Minecraft. Tanto si eliges la edición Java como Bedrock, encontrarás todo lo que necesitas para construir, explorar y sobrevivir en un emocionante universo de bloques. Compra Minecraft hoy mismo y desata tu imaginación en un mundo lleno de posibilidades.</p>
+            <div class="select-box-container">
+                <div class="select-box">
+                    <label for="edition-select">Elige una edición:</label>
+                    <select id="edition-select">
+                        <option value="java">Java Edition</option>
+                        <option value="bedrock">Bedrock Edition</option>
+                    </select>
+                    <button id="bcomprarb" class="buy-button">
+                        <a href="#Down">Comprar</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>   
+    <!-- Contenido de la página -->   
+    <div class="page-content" style="font-family: 'Ubuntu';">
+        <div class="promocion">
+            <h2 >Diferentes versiones, una misma aventura.</h2>
+            <div style="text-align: center;">
+                <p>	Podes jugar Minecraft en sus diferentes modos y versiones, a través de cada una de sus ediciones.</p>
+                <p> ¿Aún no te convence?, ¡Echale un vistazo al juego!</p>
+                <div class="video-container">
+                    <a href="https://www.youtube.com/watch?v=Rla3FUlxJdE&ab_channel=Minecraft">
+                        <img src="../img/maxresdefault.jpg" alt="Imagén de Minecraft">
+                        <img class="youtube-button" src="../img/YouTube_button.png" alt="Botón de Youtube">
+                    </a>
+                </div>
+            </div>
+            <!-- Galería de imágenes -->
+            <div style="padding-left: 4%;">
+                <p style="font-size: 40px;">MÁS CONTENIDO</p>
+                <p>Echale un vistazo a nuestra galería de imágenes <br>para conocer más del juego. </p>
+            </div>    
+            <div id="imagenes-g" style="background-image: url(../img/b.jpg);">
+                <div class="gallery-container" style="background-color: rgba(0, 0, 0, 0.267);">
+                    <div class="gallery-item">
+                        <img src="../img/img1.png" alt="Imagen 1">
+                        <div class="overlay">
+                            <p>¡Jugá con amigos con multijugador!</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../img/img2.png" alt="Imagen 2">
+                        <div class="overlay">
+                            <p>¡Explora el mundo y todo lo que ofrece!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Finalizar compra -->
+        <div class="redireccion" id="Down">
+            <img src="../img/flyingheroes.png" alt="Héroes de Minecraft Elytra" id="elitra">
+            <div style="background-color: rgba(63, 63, 63, 0.37);">
+            </div>
+        </div>
+        <div class="feature-box">
+            <img src="../img/javabedrock.png" alt="Logo">
+            <div class="left-content">  
+                <ul>
+                    <h3>Java</h3>
+                    <li>Multiplataforma</li>
+                    <li>Modificaciones</li>
+                    <li>Multijugador local</li>
+                </ul>
+            </div>
+            <div class="right-content">
+                <ul>
+                    <h4>Bedrock</h4>
+                    <li>Universal</li>
+                    <li>Realms</li>
+                    <li>Paquete de datos</li>
+                </ul>
+            </div>
+        </div>     
+    <button id="btopb" style="font-family: 'Ubuntu'; justify-content: center;">
+        <a href="https://www.minecraft.net/es-es/login?view=msa&return_url=/es-es/store/checkout/minecraft-deluxe-collection-pc">Finalizar compra</a>
+    </button>        
+    </div> 
+    <!-- Footer de la página -->
+    <footer style="padding-top: 20px;">
+        <div id="Social-Links">
+            <a href="https://www.youtube.com/minecraft" target="_blank">
+                <img src="../img/youtube.png" alt="Logo de YouTube">
+            </a>
+            <a href="https://www.twitter.com/Minecraft" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+        <p style="font-family: 'Ubuntu'; font-size: 0.8em;">Página sin fines de lucro. Copyright Maximo Gileno©</p>
+    </footer>
+    <script src="../java/script.js"></script>
